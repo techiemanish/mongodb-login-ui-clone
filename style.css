@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    border: border-box;
+}
+
+.main{
+    display: flex;
+}
+
+.left{
+    height: 100vh;
+    width: 30%;
+}
+
+.right{
+    height: 100vh;
+    width: 70%;
+    background-image: url("https://assets.mongodb-cdn.com/mms/static/images/auth/login_promo_desktop_v20240327.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.left-content{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+.login-text {
+    margin: 32px 0 8px 0;
+    font-size: 2.2rem;
+    color: green;
+    
+}
+
+.signup-text{
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #1C2D38;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.signup-text a{
+    color: #016BF8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.google{
+    width: 295px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 32px;
+    justify-content: center;
+    border: 1px solid rgb(136, 147, 151);
+    padding: 10px 0 10px 0;
+    font-size: 1rem;
+    color: #5C6C75;
+    font-weight: bold;
+}
+
+.github{
+    width: 295px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 16px;
+    justify-content: center;
+    border: 1px solid rgb(136, 147, 151);
+    font-size: 1rem;
+    color: #5C6C75;
+    font-weight: bold;
+}
+
+.google:hover{
+    border: 2px solid rgb(136, 147, 151);
+}
+
+.github:hover{
+    border: 2px solid rgb(136, 147, 151);
+}
+
+.email-text{
+    font-size: .85rem;
+    color: #5C6C75;
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.email-text div{
+    border: 1px solid rgb(193, 199, 198);
+    width: 70px;
+    font-weight: bold;
+}
+
+.left-content label{
+    font-size: .85rem;
+    color: #3D4F58;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-top: 28px;
+}
+
+.left-content input{
+    height: 40px;
+    width: 300px;
+    margin-top: 8px;
+    border-radius: 6px;
+    border: 1px solid rgb(136, 147, 151);
+    outline: none;
+}
+
+.left-content input:hover{
+    border: 2px solid rgb(136, 147, 151);
+}
+
+.left-content input:focus{
+    box-shadow: rgb(4, 152, 236) 0px 0px 0px 3px;
+    border-color: white;
+}
+
+.outside-main{
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    margin: 16px 0 48px 0;
+}
+
+.outside-main button{
+    height: 35px;
+    width: 100px;
+    border-radius: 5px;
+    border: 1px solid;
+    color: #889397;
+    padding: 0 10px;
+    font-weight: 500;
+    opacity: 0.6;
+    cursor: not-allowed;
+}
